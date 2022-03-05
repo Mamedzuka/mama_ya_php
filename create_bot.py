@@ -4,6 +4,7 @@ from aiogram.dispatcher import Dispatcher
 from data.config import BOT_TOKEN  # , ADMIN_IDS
 from sys import exit
 
+
 # объявляем хранение для машины состояний
 # storage = MemoryStorage()
 # объявляем бота и диспатчер
