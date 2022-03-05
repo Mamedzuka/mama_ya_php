@@ -2,6 +2,7 @@ import asyncio
 from aiogram.utils import executor
 from create_bot import dp
 
+
 from handlers import client  # , admin, other, admin_registration
 from services.commands_menu import set_commands_menu
 from coin_info.bitcoin_loader import coin_prices_updater

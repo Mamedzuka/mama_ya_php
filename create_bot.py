@@ -8,6 +8,8 @@ from sys import exit
 # объявляем хранение для машины состояний
 # storage = MemoryStorage()
 # объявляем бота и диспатчер
+
+
 bot = Bot(token=BOT_TOKEN)
 # dp = Dispatcher(bot, storage=storage)
 dp = Dispatcher(bot)
