@@ -49,6 +49,9 @@ def bitcoin_price_loader():
 
 def ethereum_price_loader():
     return f"*ETH*:\n{'_USD_ -':<8}{coins['ETH'][0]:.2f}\n{'_RUB_ -':<8}{coins['ETH'][1]:.2f}"
+def ethereum_price_loader():
+    return f"*ETH*:\n{'_USD_ -':<8}{coins['ETH'][0]:.2f}\n{'_RUB_ -':<8}{coins['ETH'][1]:.2f}"
+
 
 
 def usd_coin_price_loader():
