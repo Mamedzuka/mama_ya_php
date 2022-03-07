@@ -54,6 +54,8 @@ def ethereum_price_loader():
 def usd_coin_price_loader():
     return f"*USDC*:\n{'_USD_ -':<8}{coins['USDC'][0]:.8f}\n{'_RUB_ -':<8}{coins['USDC'][1]:.8f}"
 
+def usd_coin_price_loader():
+    return f"*USDC*:\n{'_USD_ -':<8}{coins['USDC'][0]:.8f}\n{'_RUB_ -':<8}{coins['USDC'][1]:.8f}"
 
 def top_five_price_loader():
     top_five_str = ""
