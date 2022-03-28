@@ -3,7 +3,7 @@ from environs import Env
 env = Env()
 env.read_env()
 
-
+# Забираем токен как переменную среды
 BOT_TOKEN = env.str("BOT_TOKEN")
 # Если токен не найден - заканчиваем программу
 if BOT_TOKEN:
