@@ -53,8 +53,3 @@ def register_handler_client(dp : Dispatcher):
     dp.register_message_handler(commands_eth_loader, commands=['eth'])
     dp.register_message_handler(commands_usdc_loader, commands=['usdc'])
     dp.register_message_handler(commands_top_five_loader, commands=['top_five'])
-    dp.register_message_handler(commands_start, commands=['start', 'help'])
-    dp.register_message_handler(commands_btc_loader, commands=['btc'])
-    dp.register_message_handler(commands_eth_loader, commands=['eth'])
-    dp.register_message_handler(commands_usdc_loader, commands=['usdc'])
-    dp.register_message_handler(commands_top_five_loader, commands=['top_five'])
